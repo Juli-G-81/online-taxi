@@ -4,11 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3989114-8c17-4285-ad9e-030192076626" name="Changes" comment="" />
+    <list default="true" id="c3989114-8c17-4285-ad9e-030192076626" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal-common/src/main/java/com/juli/internalcommon/constant/CommonStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal-common/src/main/java/com/juli/internalcommon/dto/ResponseResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal-common/src/main/java/com/juli/internalcommon/dto/serviceverificationcode/VerifyCodeResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-verification-code/src/main/java/com/juli/serviceverificationcode/controller/VerifyCodeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-verification-code/src/main/java/com/juli/serviceverificationcode/service/VerifyCodeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-verification-code/src/main/java/com/juli/serviceverificationcode/service/impl/VerifyCodeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-passenger/src/main/java/com/juli/apipassenger/ApiPassengerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/juli/apipassenger/ApiPassengerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-passenger/src/main/java/com/juli/apipassenger/demo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/juli/apipassenger/demo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka/src/main/java/com/juli/CloudEurekaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka/src/main/java/com/juli/CloudEurekaApplication.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,16 +66,22 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="openjdk-17" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.juli.internalcommon.dto" />
       <recent name="com.juli.apipassenger.demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ApiPassengerApplication">
+  <component name="RunManager" selected="Spring Boot.ServiceVerificationCodeApplication">
     <configuration name="ApiPassengerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="api-passenger" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.juli.apipassenger.ApiPassengerApplication" />
@@ -61,6 +92,21 @@
     <configuration name="InternalCommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="internal-common" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.juli.internalcommon.InternalCommonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceSmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-sms" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.juli.servicesms.ServiceSmsApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceVerificationCodeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-verification-code" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.juli.serviceverificationcode.ServiceVerificationCodeApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -107,6 +153,8 @@
       <item itemvalue="Spring Boot.eureka-7902" />
       <item itemvalue="Spring Boot.ApiPassengerApplication" />
       <item itemvalue="Spring Boot.InternalCommonApplication" />
+      <item itemvalue="Spring Boot.ServiceSmsApplication" />
+      <item itemvalue="Spring Boot.ServiceVerificationCodeApplication" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -117,11 +165,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675825268387</updated>
-      <workItem from="1675825269586" duration="10955000" />
+      <workItem from="1675825269586" duration="19688000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1675952129820</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675952129820</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service-verification-code/src/main/java/com/juli/serviceverificationcode/controller/VerifyCodeController.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
