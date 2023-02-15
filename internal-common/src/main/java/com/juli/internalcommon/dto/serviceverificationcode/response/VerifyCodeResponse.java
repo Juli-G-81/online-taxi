@@ -1,4 +1,4 @@
-package com.juli.internalcommon.dto.serviceverificationcode;
+package com.juli.internalcommon.dto.serviceverificationcode.response;
 
 import lombok.Data;
 import lombok.Getter;
