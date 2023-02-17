@@ -8,16 +8,20 @@
         <outputRelativeToContentRoot value="true" />
         <module name="internal-common" />
         <module name="service-verification-code" />
-        <module name="cloud-eureka" />
+        <module name="cloud-zuul" />
         <module name="api-passenger" />
+        <module name="cloud-eureka" />
         <module name="service-sms" />
+        <module name="api-passenger-user" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="api-passenger" options="-parameters" />
+      <module name="api-passenger-user" options="-parameters" />
       <module name="cloud-eureka" options="-parameters" />
+      <module name="cloud-zuul" options="-parameters" />
       <module name="internal-common" options="-parameters" />
       <module name="service-sms" options="-parameters" />
       <module name="service-verification-code" options="-parameters" />
