@@ -8,10 +8,13 @@
     <artifactId>online-taxi</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-
-    <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
-    </properties>
+    <modules>
+        <module>cloud-eureka</module>
+        <module>api-passenger</module>
+        <module>service-sms</module>
+        <module>service-verification-code</module>
+        <module>internal-common</module>
+        <module>cloud-zuul</module>
+    </modules>
 
 </project>

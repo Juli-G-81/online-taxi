@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3989114-8c17-4285-ad9e-030192076626" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-zuul/src/main/java/com/juli/cloudzuul/TestZuul.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-passenger/src/main/java/com/juli/apipassenger/ApiPassengerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/juli/apipassenger/ApiPassengerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-passenger/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-passenger/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/internal-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +53,10 @@
   </component>
   <component name="MavenRunner">
     <option name="jreName" value="openjdk-17" />
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2LRDzhCYBhKtEuNjWX1paIeCrxd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -68,7 +75,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="openjdk-17" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -83,6 +93,7 @@
     <configuration name="ApiPassengerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="api-passenger" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.juli.apipassenger.ApiPassengerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -90,6 +101,7 @@
     <configuration name="ApiPassengerUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="api-passenger-user" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.juli.apipassengeruser.ApiPassengerUserApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -97,6 +109,8 @@
     <configuration name="CloudZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-zuul" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.juli.cloudzuul.CloudZuulApplication" />
+      <option name="ENABLE_LAUNCH_OPTIMIZATION" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -104,6 +118,7 @@
     <configuration name="InternalCommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="internal-common" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.juli.internalcommon.InternalCommonApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -119,6 +134,7 @@
     <configuration name="ServiceVerificationCodeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="service-verification-code" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.juli.serviceverificationcode.ServiceVerificationCodeApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -183,7 +199,10 @@
       <workItem from="1676605838053" duration="92000" />
       <workItem from="1676605962823" duration="299000" />
       <workItem from="1676606302229" duration="680000" />
-      <workItem from="1676607035361" duration="2115000" />
+      <workItem from="1676607035361" duration="6007000" />
+      <workItem from="1676618149105" duration="3560000" />
+      <workItem from="1676621913615" duration="3454000" />
+      <workItem from="1676626209276" duration="5024000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1675952129820</created>
@@ -206,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676459612042</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="api-passenger">
+      <created>1676614141716</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676614141716</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,5 +254,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -1,15 +1,20 @@
 spring:
   application:
     name: eureka
+  freemarker:
+    prefer-file-system-access: false
+
 eureka:
   client:
-    #????????Eureka Server,???true???????server??????false?????????eureka???????
     register-with-eureka: false
-    #???eureka server??????????????????????????false
     fetch-registry: false
-    #?????????URL???client?server???
     service-url:
-      defaultZone: http://localhost:7900/eureka/,http://localhost:7901/eureka/,http://localhost:7902/eureka/
+      defaultZone: http://localhost:7900/eureka/
+#      ,http://localhost:7901/eureka/,http://localhost:7902/eureka/
+  server:
+    enable-self-preservation: false
+    eviction-interval-timer-in-ms: 2000
+
 
 ---
 server:
@@ -22,24 +27,24 @@ spring:
     activate:
       on-profile: 7900
 
----
-server:
-  port: 7901
-eureka:
-  instance:
-    hostname: eureka-7901
-spring:
-  config:
-    activate:
-      on-profile: 7901
-
----
-server:
-  port: 7902
-eureka:
-  instance:
-    hostname: eureka-7902
-spring:
-  config:
-    activate:
-      on-profile: 7902
+#---
+#server:
+#  port: 7901
+#eureka:
+#  instance:
+#    hostname: eureka-7901
+#spring:
+#  config:
+#    activate:
+#      on-profile: 7901
+#
+#---
+#server:
+#  port: 7902
+#eureka:
+#  instance:
+#    hostname: eureka-7902
+#spring:
+#  config:
+#    activate:
+#      on-profile: 7902
