@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3989114-8c17-4285-ad9e-030192076626" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/juli/apipassenger/gray/GrayRibbonConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/juli/apipassenger/gray/GrayRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/juli/apipassenger/gray/RequestAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/juli/apipassenger/gray/RibbonParameters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-passenger/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-passenger/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-eureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/internal-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-passenger/src/main/java/com/juli/apipassenger/ApiPassengerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/juli/apipassenger/ApiPassengerApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +199,7 @@
       <workItem from="1676607035361" duration="6007000" />
       <workItem from="1676618149105" duration="3560000" />
       <workItem from="1676621913615" duration="3454000" />
-      <workItem from="1676626209276" duration="5024000" />
+      <workItem from="1676626209276" duration="9931000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1675952129820</created>
@@ -232,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676614141716</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="zuul">
+      <created>1676632001786</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676632001786</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,7 +246,8 @@
     <MESSAGE value="init" />
     <MESSAGE value="verify code" />
     <MESSAGE value="api-passenger" />
-    <option name="LAST_COMMIT_MESSAGE" value="api-passenger" />
+    <MESSAGE value="zuul" />
+    <option name="LAST_COMMIT_MESSAGE" value="zuul" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
