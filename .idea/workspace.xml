@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3989114-8c17-4285-ad9e-030192076626" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/juli/apipassenger/gray/GrayRibbonConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/juli/apipassenger/gray/GrayRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/juli/apipassenger/gray/RequestAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/juli/apipassenger/gray/RibbonParameters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-zuul/src/main/java/com/juli/cloudzuul/filter/HostFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-zuul/src/main/java/com/juli/cloudzuul/filter/RibbonFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-zuul/src/main/java/com/juli/cloudzuul/filter/TestFilter1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-zuul/src/main/java/com/juli/cloudzuul/filter/TestFilter2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-sms/src/main/java/com/juli/servicesms/TestZuulFilter1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-passenger/src/main/java/com/juli/apipassenger/ApiPassengerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/juli/apipassenger/ApiPassengerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-passenger/src/main/java/com/juli/apipassenger/controller/TestCallServiceSmsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/juli/apipassenger/controller/TestCallServiceSmsController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +87,7 @@
       <recent name="com.juli.apipassenger.demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.CloudZuulApplication">
+  <component name="RunManager" selected="Spring Boot.ApiPassengerApplication">
     <configuration name="ApiPassengerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="api-passenger" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.juli.apipassenger.ApiPassengerApplication" />
@@ -199,7 +200,7 @@
       <workItem from="1676607035361" duration="6007000" />
       <workItem from="1676618149105" duration="3560000" />
       <workItem from="1676621913615" duration="3454000" />
-      <workItem from="1676626209276" duration="9931000" />
+      <workItem from="1676626209276" duration="14805000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1675952129820</created>
@@ -236,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676632001786</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="zuul and ribbon">
+      <created>1677759049854</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677759049854</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,7 +255,8 @@
     <MESSAGE value="verify code" />
     <MESSAGE value="api-passenger" />
     <MESSAGE value="zuul" />
-    <option name="LAST_COMMIT_MESSAGE" value="zuul" />
+    <MESSAGE value="zuul and ribbon" />
+    <option name="LAST_COMMIT_MESSAGE" value="zuul and ribbon" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
